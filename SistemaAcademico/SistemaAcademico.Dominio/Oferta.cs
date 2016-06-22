@@ -22,6 +22,6 @@ namespace SistemaAcademico.Dominio
         public virtual Professor Professor { get; set; }
 
         public virtual ICollection<Atividade> Atividades { get; set; }
-        public virtual ICollection<MatriculaOferta> MatriculasOfertas { get; set; }
+        public virtual ICollection<MatriculaOferta> MatriculasOferta { get; set; }
     }
 }

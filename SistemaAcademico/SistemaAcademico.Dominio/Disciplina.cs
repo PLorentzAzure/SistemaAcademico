@@ -15,6 +15,6 @@ namespace SistemaAcademico.Dominio
         public string Nome { get; set; }
 
         [IgnoreDataMember]
-        public virtual ICollection<GradeDisciplina> GradesCurricularesDisciplina { get; set; }
+        public virtual ICollection<GradeDisciplina> GradesDisciplina { get; set; }
     }
 }

@@ -12,6 +12,6 @@ namespace SistemaAcademico.Dominio
     {
         public string Nome { get; set; }
 
-        public virtual ICollection<Grade> Grade { get; set; }
+        public virtual ICollection<Grade> Grades { get; set; }
     }
 }
