@@ -16,14 +16,26 @@ namespace SistemaAcademico.Negocio.Gerenciador
         {
         }
 
-        public override bool Inserir(RetificacaoFalta entidade, bool apenasValidar = false)
+        public override bool Inserir(RetificacaoFalta solicitacao, bool apenasValidar = false)
         {
             var erroEncontrado = false;
 
-            if (entidade.DataFalta > DateTime.Now)
-                RegistrarErro(nameof(entidade.DataFalta), "Data inválida.", ref erroEncontrado);
+            if (solicitacao.DataFalta > DateTime.Now)
+                RegistrarErro(nameof(solicitacao.DataFalta), "Data inválida.", ref erroEncontrado);
 
-            return base.Inserir(entidade, apenasValidar || erroEncontrado);
+            return base.Inserir(solicitacao, apenasValidar || erroEncontrado);
+        }
+
+        public bool AlterarStatus(int id, Servico.StatusServico novoStatus)
+        {
+            var solicitacao = Buscar(id);
+            if (solicitacao != null && solicitacao.Status == Servico.StatusServico.Pendente && novoStatus != Servico.StatusServico.Pendente)
+            {
+                solicitacao.Status = novoStatus;
+                if (Editar(solicitacao))
+                    return true;
+            }
+            return false;
         }
     }
 }
