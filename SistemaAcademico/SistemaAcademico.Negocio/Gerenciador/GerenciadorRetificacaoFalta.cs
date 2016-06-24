@@ -35,6 +35,7 @@ namespace SistemaAcademico.Negocio.Gerenciador
                 if (Editar(solicitacao))
                     return true;
             }
+            RegistrarErro(nameof(solicitacao.Status), "Alteração de status inválida.");
             return false;
         }
     }

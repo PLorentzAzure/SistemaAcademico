@@ -32,7 +32,7 @@ namespace SistemaAcademico.Servico.Controllers
         {
             if (adaptador.GerenciadorRetificacaoFalta.AlterarStatus(id, status))
                 return StatusCode(HttpStatusCode.NoContent);
-            return BadRequest();
+            return BadRequest(ModelState);
         }
     }
 }
