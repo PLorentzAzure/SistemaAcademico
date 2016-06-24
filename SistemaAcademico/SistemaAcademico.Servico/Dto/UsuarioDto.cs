@@ -1,6 +1,7 @@
 ﻿using SistemaAcademico.Dominio;
 using SistemaAcademico.Dominio.Base;
 using SistemaAcademico.Servico.Dto.Base;
+using SistemaAcademico.Util.Enumeravel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -36,6 +37,9 @@ namespace SistemaAcademico.Servico.Dto
         [DataMember]
         public string NomePerfil { get; set; }
 
+        [DataMember]
+        public int? IdUltimaMatricula { get; set; }
+
         public override Usuario ConstruirDominio()
         {
             throw new NotImplementedException();
@@ -46,10 +50,14 @@ namespace SistemaAcademico.Servico.Dto
             this.Id = usuario.Id;
             this.Login = usuario.Login;
             this.Token = usuario.Token;
+
             var pessoa = usuario.Pessoa;
             this.Nome = pessoa?.Nome;
-            this.IdPerfil = (int)(pessoa?.Perfil ?? 0);
-            this.NomePerfil = ((PerfilPessoa)this.IdPerfil).ToString();
+
+            var perfil = pessoa?.Perfil ?? 0;
+            this.IdPerfil = (int)perfil;
+            this.NomePerfil = perfil.ToString();
+            this.IdUltimaMatricula = (usuario.Pessoa as Aluno)?.Matriculas.MaxByOrDefault(m => m.Periodo)?.Id;
         }
     }
 }

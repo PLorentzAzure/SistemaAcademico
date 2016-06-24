@@ -23,7 +23,7 @@ namespace SistemaAcademico.Dados.Repositorio
         public override IEnumerable<Usuario> Buscar()
         {
             return dbSet.Include(u => u.Professores)
-                        .Include(u => u.Alunos);
+                        .Include(u => u.Alunos.Select(a => a.Matriculas));
         }
 
         public Usuario BuscarPorLogin(string login)

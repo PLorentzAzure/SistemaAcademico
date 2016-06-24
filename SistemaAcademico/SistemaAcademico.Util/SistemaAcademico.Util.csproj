@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Delegates\Delegates.cs" />
+    <Compile Include="Enumeravel\EnumerableExtension.cs" />
     <Compile Include="Excecao\Dado\SalvarException.cs" />
     <Compile Include="Excecao\ExceptionExtension.cs" />
     <Compile Include="Excecao\Modelo\ModeloInvalidoException.cs" />
