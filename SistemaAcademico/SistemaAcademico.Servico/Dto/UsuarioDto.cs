@@ -38,7 +38,7 @@ namespace SistemaAcademico.Servico.Dto
         public string NomePerfil { get; set; }
 
         [DataMember]
-        public int? IdUltimaMatricula { get; set; }
+        public int? IdMatriculaAtual { get; set; }
 
         public override Usuario ConstruirDominio()
         {
@@ -57,7 +57,7 @@ namespace SistemaAcademico.Servico.Dto
             var perfil = pessoa?.Perfil ?? 0;
             this.IdPerfil = (int)perfil;
             this.NomePerfil = perfil.ToString();
-            this.IdUltimaMatricula = (usuario.Pessoa as Aluno)?.Matriculas.MaxByOrDefault(m => m.Periodo)?.Id;
+            this.IdMatriculaAtual = (usuario.Pessoa as Aluno)?.Matriculas.MaxByOrDefault(m => m.Periodo)?.Id;
         }
     }
 }
