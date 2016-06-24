@@ -33,7 +33,7 @@ namespace SistemaAcademico.Servico.Controllers
             if (atividades.Count < 1 && !adaptador.GerenciadorAluno.Existe(idAluno))
                 return NotFound();
 
-            return Ok(atividades.Select(a => new BoletimDto(a.Key, a)));
+            return Ok(atividades.Select(a => new HistoricoPeriodoDto(a.Key, a)));
         }
     }
 }

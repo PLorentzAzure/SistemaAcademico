@@ -11,7 +11,7 @@ namespace SistemaAcademico.Dominio
     [DataContract]
     public class MatriculaAtividade : Base.Dominio
     {
-        public double Nota { get; set; }
+        public float Nota { get; set; }
 
         [ForeignKey(nameof(Atividade))]
         public int IdAtividade { get; set; }

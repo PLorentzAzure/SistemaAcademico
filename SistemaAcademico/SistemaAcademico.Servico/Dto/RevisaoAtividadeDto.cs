@@ -14,12 +14,11 @@ namespace SistemaAcademico.Servico.Dto
     {
         public RevisaoAtividadeDto()
         {
-
         }
 
         public RevisaoAtividadeDto(RevisaoAtividade revisao)
+            : base(revisao)
         {
-            ConstruirDto(revisao);
         }
 
         [DataMember]

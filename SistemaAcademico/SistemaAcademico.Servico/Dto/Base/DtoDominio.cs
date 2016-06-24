@@ -10,6 +10,15 @@ namespace SistemaAcademico.Servico.Dto.Base
     [DataContract]
     public abstract class DtoDominio <TDominio> where TDominio: Dominio.Base.Dominio
     {
+        protected DtoDominio()
+        {
+        }
+
+        protected DtoDominio(TDominio entidade)
+        {
+            ConstruirDto(entidade);
+        }
+
         [DataMember]
         public int Id { get; set; }
 

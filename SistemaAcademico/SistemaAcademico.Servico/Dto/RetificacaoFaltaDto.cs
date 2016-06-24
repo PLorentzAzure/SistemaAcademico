@@ -15,12 +15,11 @@ namespace SistemaAcademico.Servico.Dto
     {
         public RetificacaoFaltaDTO()
         {
-
         }
 
         public RetificacaoFaltaDTO(RetificacaoFalta retificacao)
+            : base(retificacao)
         {
-            ConstruirDto(retificacao);
         }
 
         [DataMember]

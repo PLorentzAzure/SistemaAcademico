@@ -13,7 +13,7 @@ namespace SistemaAcademico.Dominio
     {
         public string Nome { get; set; }
         public DateTime Data { get; set; }
-        public double Valor { get; set; }
+        public float Valor { get; set; }
 
         [ForeignKey(nameof(Oferta))]
         public int IdOferta { get; set; }

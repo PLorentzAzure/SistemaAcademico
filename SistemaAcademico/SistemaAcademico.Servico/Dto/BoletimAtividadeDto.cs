@@ -17,18 +17,18 @@ namespace SistemaAcademico.Servico.Dto
         }
 
         public BoletimAtividadeDto(MatriculaAtividade matriculaAtividade)
+            : base(matriculaAtividade)
         {
-            ConstruirDto(matriculaAtividade);
         }
 
         [DataMember]
         public string Nome { get; set; }
 
         [DataMember]
-        public double Valor { get; set; }
+        public float Valor { get; set; }
 
         [DataMember]
-        public double Nota { get; set; }
+        public float Nota { get; set; }
 
         [DataMember]
         public DateTime Data { get; set; }
