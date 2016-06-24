@@ -83,7 +83,7 @@
 		{
 			"id": "1c923bcd-055e-8366-6d61-8d0a22c5f5a7",
 			"headers": "",
-			"url": "http://localhost:34470/api/RetificacoesFalta",
+			"url": "https://sistemaacademico.azurewebsites.net/api/RetificacoesFalta",
 			"preRequestScript": null,
 			"pathVariables": {},
 			"method": "GET",
@@ -102,7 +102,7 @@
 		{
 			"id": "1e568639-2230-0a77-373f-c67d89840024",
 			"headers": "Accept: application/json\nContent-Type: application/json\n",
-			"url": "http://localhost:34470/api/Usuarios/Autenticar",
+			"url": "https://sistemaacademico.azurewebsites.net/api/Usuarios/Autenticar",
 			"preRequestScript": null,
 			"pathVariables": {},
 			"method": "POST",
@@ -122,7 +122,7 @@
 		{
 			"id": "3bcd8e07-5425-bd14-3cd0-2a8abf18b035",
 			"headers": "Accept: application/json\n",
-			"url": "http://localhost:34470/api/Alunos/1/Historico",
+			"url": "https://sistemaacademico.azurewebsites.net/api/Alunos/1/Historico",
 			"preRequestScript": null,
 			"pathVariables": {},
 			"method": "GET",
@@ -140,7 +140,7 @@
 		{
 			"id": "57fa9d7e-1388-e8b1-6adc-6c4b63ea23a2",
 			"headers": "Accept: application/json\nContent-Type: application/json\n",
-			"url": "http://localhost:34470/api/RetificacoesFalta",
+			"url": "https://sistemaacademico.azurewebsites.net/api/RetificacoesFalta",
 			"preRequestScript": null,
 			"pathVariables": {},
 			"method": "POST",
@@ -159,7 +159,7 @@
 		{
 			"id": "60386341-b6e7-aa9c-7a29-ffada13c589d",
 			"headers": "Accept: application/json\n",
-			"url": "http://localhost:34470/api/Grades",
+			"url": "https://sistemaacademico.azurewebsites.net/api/Grades",
 			"preRequestScript": null,
 			"pathVariables": {},
 			"method": "GET",
@@ -177,7 +177,7 @@
 		{
 			"id": "70ed0322-b674-bf30-7cfc-7a50d4a8aa8e",
 			"headers": "Accept: application/json\nContent-Type: application/json\n",
-			"url": "http://localhost:34470/api/Usuarios/Autenticar",
+			"url": "https://sistemaacademico.azurewebsites.net/api/Usuarios/Autenticar",
 			"preRequestScript": null,
 			"pathVariables": {},
 			"method": "POST",
@@ -196,7 +196,7 @@
 		{
 			"id": "73eb12f2-cc93-5788-3648-df85564cdc1e",
 			"headers": "Accept: application/json\n",
-			"url": "http://localhost:34470/api/Alunos/1/Matriculas",
+			"url": "https://sistemaacademico.azurewebsites.net/api/Alunos/1/Matriculas",
 			"pathVariables": {},
 			"preRequestScript": null,
 			"method": "GET",
@@ -217,7 +217,7 @@
 		{
 			"id": "7528f470-7e6b-38a0-3e8f-6ee7a99b0f47",
 			"headers": "Accept: application/json\nContent-Type: application/json\n",
-			"url": "http://localhost:34470/api/RetificacoesFalta/1/Aprovar",
+			"url": "https://sistemaacademico.azurewebsites.net/api/RetificacoesFalta/1/Aprovar",
 			"preRequestScript": null,
 			"pathVariables": {},
 			"method": "PUT",
@@ -236,7 +236,7 @@
 		{
 			"id": "75311c69-722a-e167-68d8-cda09fdc5a49",
 			"headers": "Accept: application/json\nContent-Type: application/json\n",
-			"url": "http://localhost:34470/api/RetificacoesFalta",
+			"url": "https://sistemaacademico.azurewebsites.net/api/RetificacoesFalta",
 			"preRequestScript": null,
 			"pathVariables": {},
 			"method": "POST",
@@ -255,7 +255,7 @@
 		{
 			"id": "76128fc9-77e3-7704-8288-dcf36b531801",
 			"headers": "Accept: application/json\nContent-Type: application/json\n",
-			"url": "http://localhost:34470/api/RetificacoesFalta/1/Rejeitar",
+			"url": "https://sistemaacademico.azurewebsites.net/api/RetificacoesFalta/1/Rejeitar",
 			"preRequestScript": null,
 			"pathVariables": {},
 			"method": "PUT",
@@ -274,7 +274,7 @@
 		{
 			"id": "7b9c8db9-ffa7-b5b1-bbec-62a0284c1619",
 			"headers": "Accept: application/json\n",
-			"url": "http://localhost:34470/api/Disciplinas",
+			"url": "https://sistemaacademico.azurewebsites.net/api/Disciplinas",
 			"pathVariables": {},
 			"preRequestScript": null,
 			"method": "GET",
@@ -295,7 +295,7 @@
 		{
 			"id": "913bd072-5def-9cff-0e98-7ac9c6744b8a",
 			"headers": "Accept: application/json\n",
-			"url": "http://localhost:34470/api/Boletins/1",
+			"url": "https://sistemaacademico.azurewebsites.net/api/Boletins/1",
 			"preRequestScript": null,
 			"pathVariables": {},
 			"method": "GET",
@@ -313,7 +313,7 @@
 		{
 			"id": "e3ec3526-9b91-bcf1-b2ae-63a32a443df4",
 			"headers": "",
-			"url": "http://localhost:34470/api/Disciplinas/Matricula/2",
+			"url": "https://sistemaacademico.azurewebsites.net/api/Disciplinas/Matricula/2",
 			"pathVariables": {},
 			"preRequestScript": null,
 			"method": "GET",
