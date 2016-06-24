@@ -9,15 +9,13 @@ using System.Threading.Tasks;
 
 namespace SistemaAcademico.Negocio.Gerenciador
 {
-    public class GerenciadorMatricula : Gerenciador.Base.Gerenciador
+    public class GerenciadorMatricula : Gerenciador.Base.GerenciadorDominio<Matricula>
     {
         public GerenciadorMatricula(RegistraErro registraErro) : base(registraErro)
         {
         }
 
-        // TODO: Definir em qual controller isso deve ser chamado:
-        // Listas as disciplinas do aluno no momento para os serviços de retificação.
-        public IEnumerable<MatriculaOferta> BuscarDisciplinas(int idMatricula)
+        public IEnumerable<MatriculaOferta> BuscarOfertas(int idMatricula)
         {
             return adaptador.RepositorioMatriculaOferta.BuscarPorMatricula(idMatricula);
         }

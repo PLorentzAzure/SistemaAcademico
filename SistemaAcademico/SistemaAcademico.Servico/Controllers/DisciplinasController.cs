@@ -13,5 +13,15 @@ namespace SistemaAcademico.Servico.Controllers
 {
     public class DisciplinasController : ControladorCrud<Disciplina>
     {
+        [HttpGet]
+        [Route("api/Disciplinas/Matricula/{idMatricula}")]
+        public IHttpActionResult BuscaMatriculasAluno(int idMatricula)
+        {
+            var matriculas = adaptador.GerenciadorMatricula.BuscarOfertas(idMatricula).Select(mo => mo.Oferta.GradeDisciplina.Disciplina).ToList();
+            if (matriculas.Count < 1 && !adaptador.GerenciadorMatricula.Existe(idMatricula))
+                return NotFound();
+
+            return Ok(matriculas);
+        }
     }
 }
