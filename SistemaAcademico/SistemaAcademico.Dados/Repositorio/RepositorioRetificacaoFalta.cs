@@ -27,5 +27,10 @@ namespace SistemaAcademico.Dados.Repositorio
             return dbSet.Include(rf => rf.Matricula.Aluno)
                         .Include(rf => rf.Oferta.GradeDisciplina.Disciplina);
         }
+
+        public override RetificacaoFalta Buscar(int id)
+        {
+            return Buscar().FirstOrDefault(rf => rf.Id == id);
+        }
     }
 }
