@@ -267,20 +267,20 @@ namespace SistemaAcademico.Dados
                 new MatriculaOferta {IdMatricula = 4, IdOferta = 16 },
 
                 // Matrículas do Vinícius
-                new MatriculaOferta {IdMatricula = 1, IdOferta = 1 },
-                new MatriculaOferta {IdMatricula = 1, IdOferta = 2 },
-                new MatriculaOferta {IdMatricula = 1, IdOferta = 3 },
-                new MatriculaOferta {IdMatricula = 1, IdOferta = 4 },
-                new MatriculaOferta {IdMatricula = 2, IdOferta = 5 },
-                new MatriculaOferta {IdMatricula = 2, IdOferta = 6 },
-                new MatriculaOferta {IdMatricula = 2, IdOferta = 7 },
-                new MatriculaOferta {IdMatricula = 2, IdOferta = 8 },
+                new MatriculaOferta {IdMatricula = 5, IdOferta = 1 },
+                new MatriculaOferta {IdMatricula = 5, IdOferta = 2 },
+                new MatriculaOferta {IdMatricula = 5, IdOferta = 3 },
+                new MatriculaOferta {IdMatricula = 5, IdOferta = 4 },
+                new MatriculaOferta {IdMatricula = 6, IdOferta = 5 },
+                new MatriculaOferta {IdMatricula = 6, IdOferta = 6 },
+                new MatriculaOferta {IdMatricula = 6, IdOferta = 7 },
+                new MatriculaOferta {IdMatricula = 6, IdOferta = 8 },
 
                 // Matrículas do Renato
-                new MatriculaOferta {IdMatricula = 1, IdOferta = 1 },
-                new MatriculaOferta {IdMatricula = 1, IdOferta = 2 },
-                new MatriculaOferta {IdMatricula = 1, IdOferta = 3 },
-                new MatriculaOferta {IdMatricula = 1, IdOferta = 4 }
+                new MatriculaOferta {IdMatricula = 7, IdOferta = 1 },
+                new MatriculaOferta {IdMatricula = 7, IdOferta = 2 },
+                new MatriculaOferta {IdMatricula = 7, IdOferta = 3 },
+                new MatriculaOferta {IdMatricula = 7, IdOferta = 4 }
             }.Adicionar(contexto);
 
             new List<Atividade>
