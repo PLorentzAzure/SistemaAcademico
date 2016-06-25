@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Adaptador.cs" />
+    <Compile Include="Gerenciador\Auxiliar\GerenciadorBackDoor.cs" />
     <Compile Include="Gerenciador\Base\GerenciadorDominio.cs" />
     <Compile Include="Gerenciador\Base\Gerenciador.cs" />
     <Compile Include="ClasseTeste.cs" />

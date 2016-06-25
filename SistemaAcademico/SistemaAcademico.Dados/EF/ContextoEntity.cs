@@ -16,7 +16,7 @@ namespace SistemaAcademico.Dados.EF
 {
     internal partial class ContextoEntity : DbContext, IContexto
     {
-        private ContextoEntity(string conexao)
+        internal ContextoEntity(string conexao)
             : base(conexao)
         {
             // Apenas para carregar a instância do SqlProviderServices:

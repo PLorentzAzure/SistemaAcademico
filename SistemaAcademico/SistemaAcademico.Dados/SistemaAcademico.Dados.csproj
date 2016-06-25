@@ -61,6 +61,7 @@
     <Compile Include="Repositorio\RepositorioAluno.cs" />
     <Compile Include="Repositorio\RepositorioGradeDisciplina.cs" />
     <Compile Include="Repositorio\RepositorioMatricula.cs" />
+    <Compile Include="EF\RepositorioBackDoor.cs" />
     <Compile Include="Repositorio\RepositorioUsuario.cs" />
     <Compile Include="Repositorio\RepositorioMatriculaOferta.cs" />
     <Compile Include="Repositorio\RepositorioMatriculaAtividade.cs" />
