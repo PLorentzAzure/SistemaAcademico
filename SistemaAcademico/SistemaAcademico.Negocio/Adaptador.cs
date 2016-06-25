@@ -121,6 +121,18 @@ namespace SistemaAcademico.Negocio
             }
         }
 
+        private RepositorioCurso _repositorioCurso;
+        public RepositorioCurso RepositorioCurso
+        {
+            get
+            {
+                if (this._repositorioCurso == null)
+                    this._repositorioCurso = new RepositorioCurso(contexto);
+
+                return this._repositorioCurso;
+            }
+        }
+
         internal void SalvarAlteracoes()
         {
             contexto.SalvarAlteracoes();

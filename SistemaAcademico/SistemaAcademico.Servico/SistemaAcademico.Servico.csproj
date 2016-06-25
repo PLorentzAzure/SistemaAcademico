@@ -98,6 +98,7 @@
   <ItemGroup>
     <Compile Include="Adaptador.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\CursosController.cs" />
     <Compile Include="Controllers\AtividadesController.cs" />
     <Compile Include="Controllers\Base\ControladorCrudDominio.cs" />
     <Compile Include="Controllers\Base\ControladorCrudDto.cs" />

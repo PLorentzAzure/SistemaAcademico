@@ -107,6 +107,18 @@ namespace SistemaAcademico.Servico
             }
         }
 
+        private GerenciadorCurso _gerenciadorCurso;
+        public GerenciadorCurso GerenciadorCurso
+        {
+            get
+            {
+                if (this._gerenciadorCurso == null)
+                    this._gerenciadorCurso = new GerenciadorCurso(registrarErro);
+
+                return this._gerenciadorCurso;
+            }
+        }
+
         public void Dispose()
         {
             Dispose(true);
