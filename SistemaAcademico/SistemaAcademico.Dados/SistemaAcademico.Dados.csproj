@@ -49,6 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CargaInicial.cs" />
     <Compile Include="EF\ConfigurationExtension.cs" />
     <Compile Include="InicializadorHelper.cs" />
     <Compile Include="Repositorio\Base\Repositorio.cs" />

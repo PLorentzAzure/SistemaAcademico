@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data.Entity;
-using System.Data.Entity.Infrastructure;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,7 +11,9 @@ namespace SistemaAcademico.Dados.Contrato
     {
         int SalvarAlteracoes();
 
-        DbEntityEntry<TEntity> Entry<TEntity>(TEntity entity) where TEntity : class;
+        void MarcaModificado<TEntity>(TEntity entidade) where TEntity : class;
+
+        // TODO: Deixar IContexto livre do Entity:
         DbSet<TEntity> Set<TEntity>() where TEntity : class;
     }
 }

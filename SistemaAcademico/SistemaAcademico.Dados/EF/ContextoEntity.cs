@@ -90,5 +90,10 @@ namespace SistemaAcademico.Dados.EF
                 throw new SalvarException("Ocorreu um erro ao gravar as suas alterações.", ex);
             }
         }
+
+        public void MarcaModificado<TEntity>(TEntity entidade) where TEntity : class
+        {
+            Entry(entidade).State = EntityState.Modified;
+        }
     }
 }
