@@ -573,25 +573,25 @@ namespace SistemaAcademico.Dados
             new List<RetificacaoFalta>
             {
                 // Faltas do Pedro no semestre atual (4º Período)
-                new RetificacaoFalta {IdMatricula = 1, IdOferta = 13, DataRequisicao = new DateTime(2016, 03, 15), DataFalta = new DateTime(2016, 03, 14), Justificativa = "Estava em conferência.", Status = StatusServico.Aprovado },
-                new RetificacaoFalta {IdMatricula = 1, IdOferta = 14, DataRequisicao = new DateTime(2016, 03, 15), DataFalta = new DateTime(2016, 03, 14), Justificativa = "Estava em conferência.", Status = StatusServico.Aprovado },
+                new RetificacaoFalta {IdMatricula = 4, IdOferta = 13, DataRequisicao = new DateTime(2016, 03, 15), DataFalta = new DateTime(2016, 03, 14), Justificativa = "Estava em conferência.", Status = StatusServico.Aprovado },
+                new RetificacaoFalta {IdMatricula = 4, IdOferta = 14, DataRequisicao = new DateTime(2016, 03, 15), DataFalta = new DateTime(2016, 03, 14), Justificativa = "Estava em conferência.", Status = StatusServico.Aprovado },
 
-                new RetificacaoFalta {IdMatricula = 1, IdOferta = 13, DataRequisicao = new DateTime(2016, 06, 1), DataFalta = new DateTime(2016, 05, 30), Justificativa = "Atestado médico apresentado à Secretaria Acadêmica.", Status = StatusServico.Aprovado },
-                new RetificacaoFalta {IdMatricula = 1, IdOferta = 14, DataRequisicao = new DateTime(2016, 06, 1), DataFalta = new DateTime(2016, 05, 30), Justificativa = "Atestado médico apresentado à Secretaria Acadêmica.", Status = StatusServico.Pendente },
-                new RetificacaoFalta {IdMatricula = 1, IdOferta = 15, DataRequisicao = new DateTime(2016, 06, 1), DataFalta = new DateTime(2016, 05, 31), Justificativa = "Atestado médico apresentado à Secretaria Acadêmica.", Status = StatusServico.Pendente },
-                new RetificacaoFalta {IdMatricula = 1, IdOferta = 16, DataRequisicao = new DateTime(2016, 06, 1), DataFalta = new DateTime(2016, 05, 31), Justificativa = "Atestado médico apresentado à Secretaria Acadêmica.", Status = StatusServico.Pendente },
+                new RetificacaoFalta {IdMatricula = 4, IdOferta = 13, DataRequisicao = new DateTime(2016, 06, 1), DataFalta = new DateTime(2016, 05, 30), Justificativa = "Atestado médico apresentado à Secretaria Acadêmica.", Status = StatusServico.Aprovado },
+                new RetificacaoFalta {IdMatricula = 4, IdOferta = 14, DataRequisicao = new DateTime(2016, 06, 1), DataFalta = new DateTime(2016, 05, 30), Justificativa = "Atestado médico apresentado à Secretaria Acadêmica.", Status = StatusServico.Pendente },
+                new RetificacaoFalta {IdMatricula = 4, IdOferta = 15, DataRequisicao = new DateTime(2016, 06, 1), DataFalta = new DateTime(2016, 05, 31), Justificativa = "Atestado médico apresentado à Secretaria Acadêmica.", Status = StatusServico.Pendente },
+                new RetificacaoFalta {IdMatricula = 4, IdOferta = 16, DataRequisicao = new DateTime(2016, 06, 1), DataFalta = new DateTime(2016, 05, 31), Justificativa = "Atestado médico apresentado à Secretaria Acadêmica.", Status = StatusServico.Pendente },
 
                 // Faltas do Vinícius no semestre atual (2º Período)
-                new RetificacaoFalta {IdMatricula = 2, IdOferta = 7, DataRequisicao = new DateTime(2016, 02, 14), DataFalta = new DateTime(2016, 02, 13), Justificativa = "Meu nome não estava na lista de chamada.", Status = StatusServico.Aprovado },
-                new RetificacaoFalta {IdMatricula = 2, IdOferta = 8, DataRequisicao = new DateTime(2016, 02, 14), DataFalta = new DateTime(2016, 02, 13), Justificativa = "Meu nome não estava na lista de chamada.", Status = StatusServico.Aprovado },
+                new RetificacaoFalta {IdMatricula = 6, IdOferta = 7, DataRequisicao = new DateTime(2016, 02, 14), DataFalta = new DateTime(2016, 02, 13), Justificativa = "Meu nome não estava na lista de chamada.", Status = StatusServico.Aprovado },
+                new RetificacaoFalta {IdMatricula = 6, IdOferta = 8, DataRequisicao = new DateTime(2016, 02, 14), DataFalta = new DateTime(2016, 02, 13), Justificativa = "Meu nome não estava na lista de chamada.", Status = StatusServico.Aprovado },
 
                  // Faltas do Vinícius no semestre atual (2º Período)
-                new RetificacaoFalta {IdMatricula = 2, IdOferta = 2, DataRequisicao = new DateTime(2016, 04, 10), DataFalta = new DateTime(2016, 04, 4), Justificativa = "Viajando a trabalho trabalho.", Status = StatusServico.Aprovado },
-                new RetificacaoFalta {IdMatricula = 2, IdOferta = 3, DataRequisicao = new DateTime(2016, 04, 10), DataFalta = new DateTime(2016, 04, 4), Justificativa = "Viajando a trabalho trabalho.", Status = StatusServico.Pendente },
-                new RetificacaoFalta {IdMatricula = 2, IdOferta = 2, DataRequisicao = new DateTime(2016, 04, 10), DataFalta = new DateTime(2016, 04, 5), Justificativa = "Viajando a trabalho trabalho.", Status = StatusServico.Aprovado },
-                new RetificacaoFalta {IdMatricula = 2, IdOferta = 4, DataRequisicao = new DateTime(2016, 04, 10), DataFalta = new DateTime(2016, 04, 5), Justificativa = "Viajando a trabalho trabalho.", Status = StatusServico.Aprovado },
-                new RetificacaoFalta {IdMatricula = 2, IdOferta = 3, DataRequisicao = new DateTime(2016, 04, 10), DataFalta = new DateTime(2016, 04, 6), Justificativa = "Viajando a trabalho trabalho.", Status = StatusServico.Pendente },
-                new RetificacaoFalta {IdMatricula = 2, IdOferta = 1, DataRequisicao = new DateTime(2016, 04, 10), DataFalta = new DateTime(2016, 04, 6), Justificativa = "Viajando a trabalho trabalho.", Status = StatusServico.Pendente },
+                new RetificacaoFalta {IdMatricula = 7, IdOferta = 2, DataRequisicao = new DateTime(2016, 04, 10), DataFalta = new DateTime(2016, 04, 4), Justificativa = "Viajando a trabalho trabalho.", Status = StatusServico.Aprovado },
+                new RetificacaoFalta {IdMatricula = 7, IdOferta = 3, DataRequisicao = new DateTime(2016, 04, 10), DataFalta = new DateTime(2016, 04, 4), Justificativa = "Viajando a trabalho trabalho.", Status = StatusServico.Pendente },
+                new RetificacaoFalta {IdMatricula = 7, IdOferta = 2, DataRequisicao = new DateTime(2016, 04, 10), DataFalta = new DateTime(2016, 04, 5), Justificativa = "Viajando a trabalho trabalho.", Status = StatusServico.Aprovado },
+                new RetificacaoFalta {IdMatricula = 7, IdOferta = 4, DataRequisicao = new DateTime(2016, 04, 10), DataFalta = new DateTime(2016, 04, 5), Justificativa = "Viajando a trabalho trabalho.", Status = StatusServico.Aprovado },
+                new RetificacaoFalta {IdMatricula = 7, IdOferta = 3, DataRequisicao = new DateTime(2016, 04, 10), DataFalta = new DateTime(2016, 04, 6), Justificativa = "Viajando a trabalho trabalho.", Status = StatusServico.Pendente },
+                new RetificacaoFalta {IdMatricula = 7, IdOferta = 1, DataRequisicao = new DateTime(2016, 04, 10), DataFalta = new DateTime(2016, 04, 6), Justificativa = "Viajando a trabalho trabalho.", Status = StatusServico.Pendente },
             }.Adicionar(contexto);
         }
     }
