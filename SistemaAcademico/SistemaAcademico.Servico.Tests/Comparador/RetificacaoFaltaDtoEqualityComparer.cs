@@ -22,7 +22,7 @@ namespace SistemaAcademico.Servico.Tests.Comparador
 
         private static string MontaString(RetificacaoFaltaDto x)
         {
-            return $"{x.Id}|{x.DataFalta}|{x.IdMatricula}|{x.IdOferta}";
+            return $"{x.Id}|{x.Justificativa}|{x.IdMatricula}|{x.IdOferta}";
         }
     }
 }
