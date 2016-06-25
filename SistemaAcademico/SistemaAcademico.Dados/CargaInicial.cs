@@ -285,11 +285,11 @@ namespace SistemaAcademico.Dados
 
             new List<Atividade>
             {
-                new Atividade { Data = DateTime.Now, Nome = "TP 01", Valor= 5, IdOferta = 1 },
-                new Atividade { Data = DateTime.Now, Nome = "TP 02", Valor= 5, IdOferta = 1 },
+                new Atividade { Data = DateTime.Now, Nome = "TP 01", Valor= 10, IdOferta = 1 },
+                new Atividade { Data = DateTime.Now, Nome = "TP 02", Valor= 10, IdOferta = 1 },
                 new Atividade { Data = DateTime.Now, Nome = "Prova 01", Valor= 20, IdOferta = 1 },
-                new Atividade { Data = DateTime.Now, Nome = "TP 03", Valor= 5, IdOferta = 1 },
-                new Atividade { Data = DateTime.Now, Nome = "TP 04", Valor= 5, IdOferta = 1 },
+                new Atividade { Data = DateTime.Now, Nome = "TP 03", Valor= 10, IdOferta = 1 },
+                new Atividade { Data = DateTime.Now, Nome = "TP 04", Valor= 10, IdOferta = 1 },
                 new Atividade { Data = DateTime.Now, Nome = "Prova 02", Valor= 20, IdOferta = 1 },
                 new Atividade { Data = DateTime.Now, Nome = "Trabalho Final", Valor= 20, IdOferta = 1 },
 
@@ -299,11 +299,11 @@ namespace SistemaAcademico.Dados
                 new Atividade { Data = DateTime.Now, Nome = "Prova 02", Valor= 30, IdOferta = 2 },
                 new Atividade { Data = DateTime.Now, Nome = "Trabalho Final", Valor= 20, IdOferta = 2 },
 
-                new Atividade { Data = DateTime.Now, Nome = "TP 01", Valor= 5, IdOferta = 3 },
-                new Atividade { Data = DateTime.Now, Nome = "TP 02", Valor= 5, IdOferta = 3 },
+                new Atividade { Data = DateTime.Now, Nome = "TP 01", Valor= 10, IdOferta = 3 },
+                new Atividade { Data = DateTime.Now, Nome = "TP 02", Valor= 10, IdOferta = 3 },
                 new Atividade { Data = DateTime.Now, Nome = "Prova 01", Valor= 20, IdOferta = 3 },
-                new Atividade { Data = DateTime.Now, Nome = "TP 03", Valor= 5, IdOferta = 3 },
-                new Atividade { Data = DateTime.Now, Nome = "TP 04", Valor= 5, IdOferta = 3 },
+                new Atividade { Data = DateTime.Now, Nome = "TP 03", Valor= 10, IdOferta = 3 },
+                new Atividade { Data = DateTime.Now, Nome = "TP 04", Valor= 10, IdOferta = 3 },
                 new Atividade { Data = DateTime.Now, Nome = "Prova 02", Valor= 20, IdOferta = 3 },
                 new Atividade { Data = DateTime.Now, Nome = "Trabalho Final", Valor= 20, IdOferta = 3 },
 
@@ -313,11 +313,11 @@ namespace SistemaAcademico.Dados
                 new Atividade { Data = DateTime.Now, Nome = "Prova 02", Valor= 30, IdOferta = 4 },
                 new Atividade { Data = DateTime.Now, Nome = "Trabalho Final", Valor= 20, IdOferta = 4 },
 
-                new Atividade { Data = DateTime.Now, Nome = "TP 01", Valor= 5, IdOferta = 5 },
-                new Atividade { Data = DateTime.Now, Nome = "TP 02", Valor= 5, IdOferta = 5 },
+                new Atividade { Data = DateTime.Now, Nome = "TP 01", Valor= 10, IdOferta = 5 },
+                new Atividade { Data = DateTime.Now, Nome = "TP 02", Valor= 10, IdOferta = 5 },
                 new Atividade { Data = DateTime.Now, Nome = "Prova 01", Valor= 20, IdOferta = 5 },
-                new Atividade { Data = DateTime.Now, Nome = "TP 03", Valor= 5, IdOferta = 5 },
-                new Atividade { Data = DateTime.Now, Nome = "TP 04", Valor= 5, IdOferta = 5 },
+                new Atividade { Data = DateTime.Now, Nome = "TP 03", Valor= 10, IdOferta = 5 },
+                new Atividade { Data = DateTime.Now, Nome = "TP 04", Valor= 10, IdOferta = 5 },
                 new Atividade { Data = DateTime.Now, Nome = "Prova 02", Valor= 20, IdOferta = 5 },
                 new Atividade { Data = DateTime.Now, Nome = "Trabalho Final", Valor= 20, IdOferta = 5 },
 
@@ -327,11 +327,11 @@ namespace SistemaAcademico.Dados
                 new Atividade { Data = DateTime.Now, Nome = "Prova 02", Valor= 30, IdOferta = 6 },
                 new Atividade { Data = DateTime.Now, Nome = "Trabalho Final", Valor= 20, IdOferta = 6 },
 
-                new Atividade { Data = DateTime.Now, Nome = "TP 01", Valor= 5, IdOferta = 7 },
-                new Atividade { Data = DateTime.Now, Nome = "TP 02", Valor= 5, IdOferta = 7 },
+                new Atividade { Data = DateTime.Now, Nome = "TP 01", Valor= 10, IdOferta = 7 },
+                new Atividade { Data = DateTime.Now, Nome = "TP 02", Valor= 10, IdOferta = 7 },
                 new Atividade { Data = DateTime.Now, Nome = "Prova 01", Valor= 20, IdOferta = 7 },
-                new Atividade { Data = DateTime.Now, Nome = "TP 03", Valor= 5, IdOferta = 7 },
-                new Atividade { Data = DateTime.Now, Nome = "TP 04", Valor= 5, IdOferta = 7 },
+                new Atividade { Data = DateTime.Now, Nome = "TP 03", Valor= 10, IdOferta = 7 },
+                new Atividade { Data = DateTime.Now, Nome = "TP 04", Valor= 10, IdOferta = 7 },
                 new Atividade { Data = DateTime.Now, Nome = "Prova 02", Valor= 20, IdOferta = 7 },
                 new Atividade { Data = DateTime.Now, Nome = "Trabalho Final", Valor= 20, IdOferta = 7 },
 
@@ -341,11 +341,11 @@ namespace SistemaAcademico.Dados
                 new Atividade { Data = DateTime.Now, Nome = "Prova 02", Valor= 30, IdOferta = 8 },
                 new Atividade { Data = DateTime.Now, Nome = "Trabalho Final", Valor= 20, IdOferta = 8 },
 
-                new Atividade { Data = DateTime.Now, Nome = "TP 01", Valor= 5, IdOferta = 9 },
-                new Atividade { Data = DateTime.Now, Nome = "TP 02", Valor= 5, IdOferta = 9 },
+                new Atividade { Data = DateTime.Now, Nome = "TP 01", Valor= 10, IdOferta = 9 },
+                new Atividade { Data = DateTime.Now, Nome = "TP 02", Valor= 10, IdOferta = 9 },
                 new Atividade { Data = DateTime.Now, Nome = "Prova 01", Valor= 20, IdOferta = 9 },
-                new Atividade { Data = DateTime.Now, Nome = "TP 03", Valor= 5, IdOferta = 9 },
-                new Atividade { Data = DateTime.Now, Nome = "TP 04", Valor= 5, IdOferta = 9 },
+                new Atividade { Data = DateTime.Now, Nome = "TP 03", Valor= 10, IdOferta = 9 },
+                new Atividade { Data = DateTime.Now, Nome = "TP 04", Valor= 10, IdOferta = 9 },
                 new Atividade { Data = DateTime.Now, Nome = "Prova 02", Valor= 20, IdOferta = 9 },
                 new Atividade { Data = DateTime.Now, Nome = "Trabalho Final", Valor= 20, IdOferta = 9 },
 
@@ -355,11 +355,11 @@ namespace SistemaAcademico.Dados
                 new Atividade { Data = DateTime.Now, Nome = "Prova 02", Valor= 30, IdOferta = 10 },
                 new Atividade { Data = DateTime.Now, Nome = "Trabalho Final", Valor= 20, IdOferta = 10 },
 
-                new Atividade { Data = DateTime.Now, Nome = "TP 01", Valor= 5, IdOferta = 11 },
-                new Atividade { Data = DateTime.Now, Nome = "TP 02", Valor= 5, IdOferta = 11 },
+                new Atividade { Data = DateTime.Now, Nome = "TP 01", Valor= 10, IdOferta = 11 },
+                new Atividade { Data = DateTime.Now, Nome = "TP 02", Valor= 10, IdOferta = 11 },
                 new Atividade { Data = DateTime.Now, Nome = "Prova 01", Valor= 20, IdOferta = 11 },
-                new Atividade { Data = DateTime.Now, Nome = "TP 03", Valor= 5, IdOferta = 11 },
-                new Atividade { Data = DateTime.Now, Nome = "TP 04", Valor= 5, IdOferta = 11 },
+                new Atividade { Data = DateTime.Now, Nome = "TP 03", Valor= 10, IdOferta = 11 },
+                new Atividade { Data = DateTime.Now, Nome = "TP 04", Valor= 10, IdOferta = 11 },
                 new Atividade { Data = DateTime.Now, Nome = "Prova 02", Valor= 20, IdOferta = 11 },
                 new Atividade { Data = DateTime.Now, Nome = "Trabalho Final", Valor= 20, IdOferta = 11 },
 
@@ -369,11 +369,11 @@ namespace SistemaAcademico.Dados
                 new Atividade { Data = DateTime.Now, Nome = "Prova 02", Valor= 30, IdOferta = 12 },
                 new Atividade { Data = DateTime.Now, Nome = "Trabalho Final", Valor= 20, IdOferta = 12 },
 
-                new Atividade { Data = DateTime.Now, Nome = "TP 01", Valor= 5, IdOferta = 13 },
-                new Atividade { Data = DateTime.Now, Nome = "TP 02", Valor= 5, IdOferta = 13 },
+                new Atividade { Data = DateTime.Now, Nome = "TP 01", Valor= 10, IdOferta = 13 },
+                new Atividade { Data = DateTime.Now, Nome = "TP 02", Valor= 10, IdOferta = 13 },
                 new Atividade { Data = DateTime.Now, Nome = "Prova 01", Valor= 20, IdOferta = 13 },
-                new Atividade { Data = DateTime.Now, Nome = "TP 03", Valor= 5, IdOferta = 13 },
-                new Atividade { Data = DateTime.Now, Nome = "TP 04", Valor= 5, IdOferta = 1 },
+                new Atividade { Data = DateTime.Now, Nome = "TP 03", Valor= 10, IdOferta = 13 },
+                new Atividade { Data = DateTime.Now, Nome = "TP 04", Valor= 10, IdOferta = 1 },
                 new Atividade { Data = DateTime.Now, Nome = "Prova 02", Valor= 20, IdOferta = 13 },
                 new Atividade { Data = DateTime.Now, Nome = "Trabalho Final", Valor= 20, IdOferta = 13 },
 
@@ -383,11 +383,11 @@ namespace SistemaAcademico.Dados
                 new Atividade { Data = DateTime.Now, Nome = "Prova 02", Valor= 30, IdOferta = 14 },
                 new Atividade { Data = DateTime.Now, Nome = "Trabalho Final", Valor= 20, IdOferta = 14 },
 
-                new Atividade { Data = DateTime.Now, Nome = "TP 01", Valor= 5, IdOferta = 15 },
-                new Atividade { Data = DateTime.Now, Nome = "TP 02", Valor= 5, IdOferta = 15 },
+                new Atividade { Data = DateTime.Now, Nome = "TP 01", Valor= 10, IdOferta = 15 },
+                new Atividade { Data = DateTime.Now, Nome = "TP 02", Valor= 10, IdOferta = 15 },
                 new Atividade { Data = DateTime.Now, Nome = "Prova 01", Valor= 20, IdOferta = 15 },
-                new Atividade { Data = DateTime.Now, Nome = "TP 03", Valor= 5, IdOferta = 15 },
-                new Atividade { Data = DateTime.Now, Nome = "TP 04", Valor= 5, IdOferta = 15 },
+                new Atividade { Data = DateTime.Now, Nome = "TP 03", Valor= 10, IdOferta = 15 },
+                new Atividade { Data = DateTime.Now, Nome = "TP 04", Valor= 10, IdOferta = 15 },
                 new Atividade { Data = DateTime.Now, Nome = "Prova 02", Valor= 20, IdOferta = 15 },
                 new Atividade { Data = DateTime.Now, Nome = "Trabalho Final", Valor= 20, IdOferta = 15 },
 
@@ -401,10 +401,10 @@ namespace SistemaAcademico.Dados
             new List<MatriculaAtividade>
             {
                 // Atividades do Pedro - Período 1
-                new MatriculaAtividade {IdAtividade = 1, IdMatriculaOferta = 1, Nota = 4 },
-                new MatriculaAtividade {IdAtividade = 2, IdMatriculaOferta = 1, Nota = 3 },
+                new MatriculaAtividade {IdAtividade = 1, IdMatriculaOferta = 1, Nota = 8 },
+                new MatriculaAtividade {IdAtividade = 2, IdMatriculaOferta = 1, Nota = 7 },
                 new MatriculaAtividade {IdAtividade = 3, IdMatriculaOferta = 1, Nota = 20 },
-                new MatriculaAtividade {IdAtividade = 4, IdMatriculaOferta = 1, Nota = 4 },
+                new MatriculaAtividade {IdAtividade = 4, IdMatriculaOferta = 1, Nota = 7 },
                 new MatriculaAtividade {IdAtividade = 5, IdMatriculaOferta = 1, Nota = 0 },
                 new MatriculaAtividade {IdAtividade = 6, IdMatriculaOferta = 1, Nota = 15 },
                 new MatriculaAtividade {IdAtividade = 7, IdMatriculaOferta = 1, Nota = 20 },
@@ -415,11 +415,11 @@ namespace SistemaAcademico.Dados
                 new MatriculaAtividade {IdAtividade = 11, IdMatriculaOferta = 2, Nota = 15 },
                 new MatriculaAtividade {IdAtividade = 12, IdMatriculaOferta = 2, Nota = 18 },
 
-                new MatriculaAtividade {IdAtividade = 13, IdMatriculaOferta = 3, Nota = 5 },
-                new MatriculaAtividade {IdAtividade = 14, IdMatriculaOferta = 3, Nota = 2 },
+                new MatriculaAtividade {IdAtividade = 13, IdMatriculaOferta = 3, Nota = 6 },
+                new MatriculaAtividade {IdAtividade = 14, IdMatriculaOferta = 3, Nota = 8 },
                 new MatriculaAtividade {IdAtividade = 15, IdMatriculaOferta = 3, Nota = 18 },
                 new MatriculaAtividade {IdAtividade = 16, IdMatriculaOferta = 3, Nota = 3 },
-                new MatriculaAtividade {IdAtividade = 17, IdMatriculaOferta = 3, Nota = 5 },
+                new MatriculaAtividade {IdAtividade = 17, IdMatriculaOferta = 3, Nota = 7 },
                 new MatriculaAtividade {IdAtividade = 18, IdMatriculaOferta = 3, Nota = 14 },
                 new MatriculaAtividade {IdAtividade = 19, IdMatriculaOferta = 3, Nota = 15 },
 
@@ -430,11 +430,11 @@ namespace SistemaAcademico.Dados
                 new MatriculaAtividade {IdAtividade = 24, IdMatriculaOferta = 4, Nota = 20 },
 
                 // Atividades do Pedro - Período 2
-                new MatriculaAtividade {IdAtividade = 25, IdMatriculaOferta = 5, Nota = 3 },
+                new MatriculaAtividade {IdAtividade = 25, IdMatriculaOferta = 5, Nota = 7 },
                 new MatriculaAtividade {IdAtividade = 26, IdMatriculaOferta = 5, Nota = 5 },
                 new MatriculaAtividade {IdAtividade = 27, IdMatriculaOferta = 5, Nota = 19 },
                 new MatriculaAtividade {IdAtividade = 28, IdMatriculaOferta = 5, Nota = 5 },
-                new MatriculaAtividade {IdAtividade = 29, IdMatriculaOferta = 5, Nota = 1 },
+                new MatriculaAtividade {IdAtividade = 29, IdMatriculaOferta = 5, Nota = 8 },
                 new MatriculaAtividade {IdAtividade = 30, IdMatriculaOferta = 5, Nota = 14 },
                 new MatriculaAtividade {IdAtividade = 31, IdMatriculaOferta = 5, Nota = 17 },
 
@@ -444,7 +444,7 @@ namespace SistemaAcademico.Dados
                 new MatriculaAtividade {IdAtividade = 35, IdMatriculaOferta = 6, Nota = 27 },
                 new MatriculaAtividade {IdAtividade = 36, IdMatriculaOferta = 6, Nota = 17 },
 
-                new MatriculaAtividade {IdAtividade = 37, IdMatriculaOferta = 7, Nota = 4 },
+                new MatriculaAtividade {IdAtividade = 37, IdMatriculaOferta = 7, Nota = 9 },
                 new MatriculaAtividade {IdAtividade = 38, IdMatriculaOferta = 7, Nota = 3 },
                 new MatriculaAtividade {IdAtividade = 39, IdMatriculaOferta = 7, Nota = 17 },
                 new MatriculaAtividade {IdAtividade = 40, IdMatriculaOferta = 7, Nota = 4 },
@@ -460,10 +460,10 @@ namespace SistemaAcademico.Dados
 
                  // Atividades do Pedro - Período 3
                 new MatriculaAtividade {IdAtividade = 49, IdMatriculaOferta = 9, Nota = 4 },
-                new MatriculaAtividade {IdAtividade = 50, IdMatriculaOferta = 9, Nota = 3 },
+                new MatriculaAtividade {IdAtividade = 50, IdMatriculaOferta = 9, Nota = 7 },
                 new MatriculaAtividade {IdAtividade = 51, IdMatriculaOferta = 9, Nota = 20 },
                 new MatriculaAtividade {IdAtividade = 52, IdMatriculaOferta = 9, Nota = 4 },
-                new MatriculaAtividade {IdAtividade = 53, IdMatriculaOferta = 9, Nota = 0 },
+                new MatriculaAtividade {IdAtividade = 53, IdMatriculaOferta = 9, Nota = 10 },
                 new MatriculaAtividade {IdAtividade = 54, IdMatriculaOferta = 9, Nota = 15 },
                 new MatriculaAtividade {IdAtividade = 55, IdMatriculaOferta = 9, Nota = 20 },
 
@@ -474,7 +474,7 @@ namespace SistemaAcademico.Dados
                 new MatriculaAtividade {IdAtividade = 60, IdMatriculaOferta = 10, Nota = 18 },
 
                 new MatriculaAtividade {IdAtividade = 61, IdMatriculaOferta = 11, Nota = 5 },
-                new MatriculaAtividade {IdAtividade = 62, IdMatriculaOferta = 11, Nota = 2 },
+                new MatriculaAtividade {IdAtividade = 62, IdMatriculaOferta = 11, Nota = 7 },
                 new MatriculaAtividade {IdAtividade = 63, IdMatriculaOferta = 11, Nota = 18 },
                 new MatriculaAtividade {IdAtividade = 64, IdMatriculaOferta = 11, Nota = 3 },
                 new MatriculaAtividade {IdAtividade = 65, IdMatriculaOferta = 11, Nota = 5 },
@@ -488,18 +488,18 @@ namespace SistemaAcademico.Dados
                 new MatriculaAtividade {IdAtividade = 72, IdMatriculaOferta = 12, Nota = 20 },
 
                 // Atividades do Pedro - Período 4 (período atual)
-                new MatriculaAtividade {IdAtividade = 73, IdMatriculaOferta = 13, Nota = 3 },
+                new MatriculaAtividade {IdAtividade = 73, IdMatriculaOferta = 13, Nota = 7 },
                 new MatriculaAtividade {IdAtividade = 74, IdMatriculaOferta = 13, Nota = 5 },
                 new MatriculaAtividade {IdAtividade = 75, IdMatriculaOferta = 13, Nota = 19 },
                 new MatriculaAtividade {IdAtividade = 76, IdMatriculaOferta = 13, Nota = 5 },
-                new MatriculaAtividade {IdAtividade = 77, IdMatriculaOferta = 13, Nota = 1 },
+                new MatriculaAtividade {IdAtividade = 77, IdMatriculaOferta = 13, Nota = 7 },
 
                 new MatriculaAtividade {IdAtividade = 80, IdMatriculaOferta = 14, Nota = 8 },
                 new MatriculaAtividade {IdAtividade = 81, IdMatriculaOferta = 14, Nota = 25 },
                 new MatriculaAtividade {IdAtividade = 82, IdMatriculaOferta = 14, Nota = 10 },
 
                 new MatriculaAtividade {IdAtividade = 85, IdMatriculaOferta = 15, Nota = 4 },
-                new MatriculaAtividade {IdAtividade = 86, IdMatriculaOferta = 15, Nota = 3 },
+                new MatriculaAtividade {IdAtividade = 86, IdMatriculaOferta = 15, Nota = 7 },
                 new MatriculaAtividade {IdAtividade = 87, IdMatriculaOferta = 15, Nota = 17 },
 
                 new MatriculaAtividade {IdAtividade = 44, IdMatriculaOferta = 16, Nota = 9 },
@@ -507,11 +507,11 @@ namespace SistemaAcademico.Dados
                 new MatriculaAtividade {IdAtividade = 46, IdMatriculaOferta = 16, Nota = 12 },
 
                 // Atividades do Vinícius - Período 1
-                new MatriculaAtividade {IdAtividade = 1, IdMatriculaOferta = 17, Nota = 3 },
+                new MatriculaAtividade {IdAtividade = 1, IdMatriculaOferta = 17, Nota = 8 },
                 new MatriculaAtividade {IdAtividade = 2, IdMatriculaOferta = 17, Nota = 4 },
                 new MatriculaAtividade {IdAtividade = 3, IdMatriculaOferta = 17, Nota = 18 },
-                new MatriculaAtividade {IdAtividade = 4, IdMatriculaOferta = 17, Nota = 3 },
-                new MatriculaAtividade {IdAtividade = 5, IdMatriculaOferta = 17, Nota = 2 },
+                new MatriculaAtividade {IdAtividade = 4, IdMatriculaOferta = 17, Nota = 7 },
+                new MatriculaAtividade {IdAtividade = 5, IdMatriculaOferta = 17, Nota = 7 },
                 new MatriculaAtividade {IdAtividade = 6, IdMatriculaOferta = 17, Nota = 20 },
                 new MatriculaAtividade {IdAtividade = 7, IdMatriculaOferta = 17, Nota = 18 },
 
@@ -521,11 +521,11 @@ namespace SistemaAcademico.Dados
                 new MatriculaAtividade {IdAtividade = 11, IdMatriculaOferta = 18, Nota = 22 },
                 new MatriculaAtividade {IdAtividade = 12, IdMatriculaOferta = 18, Nota = 15 },
 
-                new MatriculaAtividade {IdAtividade = 13, IdMatriculaOferta = 19, Nota = 4 },
-                new MatriculaAtividade {IdAtividade = 14, IdMatriculaOferta = 19, Nota = 3 },
+                new MatriculaAtividade {IdAtividade = 13, IdMatriculaOferta = 19, Nota = 7 },
+                new MatriculaAtividade {IdAtividade = 14, IdMatriculaOferta = 19, Nota = 8 },
                 new MatriculaAtividade {IdAtividade = 15, IdMatriculaOferta = 19, Nota = 17 },
-                new MatriculaAtividade {IdAtividade = 16, IdMatriculaOferta = 19, Nota = 4 },
-                new MatriculaAtividade {IdAtividade = 17, IdMatriculaOferta = 19, Nota = 4 },
+                new MatriculaAtividade {IdAtividade = 16, IdMatriculaOferta = 19, Nota = 6 },
+                new MatriculaAtividade {IdAtividade = 17, IdMatriculaOferta = 19, Nota = 9 },
                 new MatriculaAtividade {IdAtividade = 18, IdMatriculaOferta = 19, Nota = 18 },
                 new MatriculaAtividade {IdAtividade = 19, IdMatriculaOferta = 19, Nota = 17 },
 
@@ -536,8 +536,8 @@ namespace SistemaAcademico.Dados
                 new MatriculaAtividade {IdAtividade = 24, IdMatriculaOferta = 20, Nota = 14 },
 
                 // Atividades do Vinícius - Período 2 (período atual)
-                new MatriculaAtividade {IdAtividade = 25, IdMatriculaOferta = 21, Nota = 4 },
-                new MatriculaAtividade {IdAtividade = 26, IdMatriculaOferta = 21, Nota = 4 },
+                new MatriculaAtividade {IdAtividade = 25, IdMatriculaOferta = 21, Nota = 8 },
+                new MatriculaAtividade {IdAtividade = 26, IdMatriculaOferta = 21, Nota = 7 },
                 new MatriculaAtividade {IdAtividade = 27, IdMatriculaOferta = 21, Nota = 19 },
                 new MatriculaAtividade {IdAtividade = 28, IdMatriculaOferta = 21, Nota = 5 },
 
@@ -545,16 +545,16 @@ namespace SistemaAcademico.Dados
                 new MatriculaAtividade {IdAtividade = 33, IdMatriculaOferta = 22, Nota = 26 },
                 new MatriculaAtividade {IdAtividade = 34, IdMatriculaOferta = 22, Nota = 10 },
 
-                new MatriculaAtividade {IdAtividade = 37, IdMatriculaOferta = 23, Nota = 3 },
-                new MatriculaAtividade {IdAtividade = 38, IdMatriculaOferta = 23, Nota = 3 },
+                new MatriculaAtividade {IdAtividade = 37, IdMatriculaOferta = 23, Nota = 9 },
+                new MatriculaAtividade {IdAtividade = 38, IdMatriculaOferta = 23, Nota = 8 },
                 new MatriculaAtividade {IdAtividade = 39, IdMatriculaOferta = 23, Nota = 18 },
 
                 new MatriculaAtividade {IdAtividade = 44, IdMatriculaOferta = 24, Nota = 9 },
                 new MatriculaAtividade {IdAtividade = 45, IdMatriculaOferta = 24, Nota = 23 },
 
                 // Atividades do Renato - Período 1 (período atual)
-                new MatriculaAtividade {IdAtividade = 1, IdMatriculaOferta = 25, Nota = 4 },
-                new MatriculaAtividade {IdAtividade = 2, IdMatriculaOferta = 25, Nota = 4 },
+                new MatriculaAtividade {IdAtividade = 1, IdMatriculaOferta = 25, Nota = 7 },
+                new MatriculaAtividade {IdAtividade = 2, IdMatriculaOferta = 25, Nota = 6 },
                 new MatriculaAtividade {IdAtividade = 3, IdMatriculaOferta = 25, Nota = 17 },
                 new MatriculaAtividade {IdAtividade = 4, IdMatriculaOferta = 25, Nota = 4 },
 
@@ -562,8 +562,8 @@ namespace SistemaAcademico.Dados
                 new MatriculaAtividade {IdAtividade = 9, IdMatriculaOferta = 26, Nota = 27 },
                 new MatriculaAtividade {IdAtividade = 10, IdMatriculaOferta = 26, Nota = 7 },
 
-                new MatriculaAtividade {IdAtividade = 13, IdMatriculaOferta = 27, Nota = 5 },
-                new MatriculaAtividade {IdAtividade = 14, IdMatriculaOferta = 27, Nota = 5 },
+                new MatriculaAtividade {IdAtividade = 13, IdMatriculaOferta = 27, Nota = 10 },
+                new MatriculaAtividade {IdAtividade = 14, IdMatriculaOferta = 27, Nota = 10 },
                 new MatriculaAtividade {IdAtividade = 15, IdMatriculaOferta = 27, Nota = 20 },
 
                 new MatriculaAtividade {IdAtividade = 20, IdMatriculaOferta = 28, Nota = 9 },
