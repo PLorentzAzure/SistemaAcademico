@@ -20,9 +20,14 @@ namespace SistemaAcademico.Negocio.Gerenciador
             return adaptador.RepositorioMatriculaAtividade.BuscarPorMatricula(idMatricula);
         }
 
-        public IEnumerable<IGrouping<Matricula, IGrouping<MatriculaOferta, MatriculaAtividade>>> BuscaAtividadesPorAluno(int idAluno)
+        public IEnumerable<IGrouping<Matricula, IGrouping<MatriculaOferta, MatriculaAtividade>>> BuscaAtividadesPorAluno(int idAluno, bool desconsiderarSemestreAtual)
         {
-            return adaptador.RepositorioMatriculaAtividade.BuscarPorAluno(idAluno);
+            int? idMatriculaAtual = null;
+
+            if (desconsiderarSemestreAtual)
+                idMatriculaAtual = adaptador.RepositorioAluno.BuscarMatriculaAtual(idAluno);
+
+            return adaptador.RepositorioMatriculaAtividade.BuscarPorAluno(idAluno, idMatriculaAtual);
         }
     }
 }

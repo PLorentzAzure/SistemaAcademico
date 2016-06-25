@@ -29,7 +29,7 @@ namespace SistemaAcademico.Servico.Controllers
         [Route("api/Alunos/{idAluno}/Historico")]
         public IHttpActionResult BuscaHistoricoAluno(int idAluno)
         {
-            var atividades = adaptador.GerenciadorMatriculaAtividade.BuscaAtividadesPorAluno(idAluno).ToList();
+            var atividades = adaptador.GerenciadorMatriculaAtividade.BuscaAtividadesPorAluno(idAluno, true).ToList();
             if (atividades.Count < 1 && !adaptador.GerenciadorAluno.Existe(idAluno))
                 return NotFound();
 

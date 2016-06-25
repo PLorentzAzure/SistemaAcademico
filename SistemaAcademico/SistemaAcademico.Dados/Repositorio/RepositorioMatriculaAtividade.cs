@@ -35,9 +35,9 @@ namespace SistemaAcademico.Dados.Repositorio
                            .GroupBy(ma => ma.MatriculaOferta);
         }
 
-        public IEnumerable<IGrouping<Matricula, IGrouping<MatriculaOferta, MatriculaAtividade>>> BuscarPorAluno(int idAluno)
+        public IEnumerable<IGrouping<Matricula, IGrouping<MatriculaOferta, MatriculaAtividade>>> BuscarPorAluno(int idAluno, int? idMatriculaAtual = null)
         {
-            return Buscar().Where(ma => ma.MatriculaOferta.Matricula.IdAluno == idAluno)
+            return Buscar().Where(ma => ma.MatriculaOferta.Matricula.IdAluno == idAluno && (idMatriculaAtual == null || ma.MatriculaOferta.IdMatricula != idMatriculaAtual ))
                            .GroupBy(ma => ma.MatriculaOferta)
                            .GroupBy(g => g.Key.Matricula)
                            .OrderBy(g => g.Key.Periodo);
