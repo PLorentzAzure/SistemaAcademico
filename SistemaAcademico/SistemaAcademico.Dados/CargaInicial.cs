@@ -59,12 +59,12 @@ namespace SistemaAcademico.Dados
 
             new List<Grade>
             {
-                new Grade {Nome = "Ciência da Computação OF01", IdCurso = 1 },
-                new Grade {Nome = "Ciência da Computação OF02", IdCurso = 1 },
-                new Grade {Nome = "Engenharia da Computação OF01", IdCurso = 1 },
-                new Grade {Nome = "Engenharia de Software OF01", IdCurso = 1 },
-                new Grade {Nome = "Sistemas de Informação OF01", IdCurso = 1 },
-                new Grade {Nome = "Sistemas de Informação OF01", IdCurso = 1 }
+                new Grade {Nome = "Ciência da Computação OF01", IdCurso = 1, Ativa = false },
+                new Grade {Nome = "Ciência da Computação OF02", IdCurso = 1, Ativa = true },
+                new Grade {Nome = "Engenharia da Computação OF01", IdCurso = 1, Ativa = true },
+                new Grade {Nome = "Engenharia de Software OF01", IdCurso = 1, Ativa = true },
+                new Grade {Nome = "Sistemas de Informação OF01", IdCurso = 1, Ativa = false },
+                new Grade {Nome = "Sistemas de Informação OF02", IdCurso = 1, Ativa = true }
             }.Adicionar(contexto);
 
             new List<GradeDisciplina>

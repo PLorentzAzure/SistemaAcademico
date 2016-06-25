@@ -17,6 +17,8 @@ namespace SistemaAcademico.Dominio
         [ForeignKey(nameof(Curso))]
         public int IdCurso { get; set; }
 
+        public bool Ativa { get; set; }
+
         public virtual Curso Curso { get; set; }
 
         [DataMember]

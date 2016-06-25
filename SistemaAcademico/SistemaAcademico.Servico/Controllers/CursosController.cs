@@ -14,6 +14,12 @@ namespace SistemaAcademico.Servico.Controllers
 {
     public class CursosController : ControladorCrudDominio<Curso>
     {
-
+        [HttpGet]
+        [Route("api/Cursos/{idCurso}/GradeAtiva")]
+        public IHttpActionResult BuscarGradeAtiva(int idCurso)
+        {
+            var grade = adaptador.GerenciadorGrade.BuscarPorCurso(idCurso);
+            return Ok(grade);
+        }
     }
 }
