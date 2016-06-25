@@ -12,9 +12,11 @@ namespace SistemaAcademico.Dominio
     [DataContract]
     public class RetificacaoFalta : Servico
     {
+        [DataMember]
         [ForeignKey(nameof(Matricula))]
         public int IdMatricula { get; set; }
 
+        [DataMember]
         [ForeignKey(nameof(Oferta))]
         public int IdOferta { get; set; }
 
