@@ -11,13 +11,13 @@ using static SistemaAcademico.Dominio.Base.Servico;
 namespace SistemaAcademico.Servico.Dto
 {
     [DataContract]
-    public class RetificacaoFaltaDTO : Dto.Base.DtoDominio<RetificacaoFalta>
+    public class RetificacaoFaltaDto : Dto.Base.DtoDominio<RetificacaoFalta>
     {
-        public RetificacaoFaltaDTO()
+        public RetificacaoFaltaDto()
         {
         }
 
-        public RetificacaoFaltaDTO(RetificacaoFalta retificacao)
+        public RetificacaoFaltaDto(RetificacaoFalta retificacao)
             : base(retificacao)
         {
         }

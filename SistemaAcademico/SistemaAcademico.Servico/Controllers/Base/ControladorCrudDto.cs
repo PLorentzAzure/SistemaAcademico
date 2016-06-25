@@ -74,7 +74,7 @@ namespace SistemaAcademico.Servico.Controllers.Base
             if (Gerenciador.Inserir(dominio))
             {
                 // TODO: Verificar forma de não deixar rota chapada:
-                return CreatedAtRoute("DefaultApi", new { id = entidade.Id }, entidade);
+                return CreatedAtRoute("DefaultApi", new { id = entidade.Id }, CriarDto(Gerenciador.Buscar(dominio.Id)));
             }
             return BadRequest(ModelState);
         }

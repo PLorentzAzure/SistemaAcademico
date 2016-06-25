@@ -12,6 +12,7 @@ using System.Collections.Generic;
 using Newtonsoft.Json;
 using SistemaAcademico.Servico.Tests.Base;
 using SistemaAcademico.Servico.Tests.Comparador;
+using SistemaAcademico.Servico.Dto;
 
 namespace SistemaAcademico.Servico.Tests
 {
@@ -33,13 +34,13 @@ namespace SistemaAcademico.Servico.Tests
         {
             var url = $"{UrlBase}RetificacoesFalta";
 
-            var retificacoes = RequisicaoWeb.Requisicao(url).DeserializaLista<RetificacaoFalta>();
+            var retificacoes = RequisicaoWeb.Requisicao(url).DeserializaLista<RetificacaoFaltaDto>();
 
-            var comparador = new RetificacaoFaltaEqualityComparer();
+            var comparador = new RetificacaoFaltaDtoEqualityComparer();
 
             foreach (var rf in retificacoes)
             {
-                var retificacaoEspecifica = RequisicaoWeb.Requisicao($"{url}/{rf.Id}").Deserializa<RetificacaoFalta>();
+                var retificacaoEspecifica = RequisicaoWeb.Requisicao($"{url}/{rf.Id}").Deserializa<RetificacaoFaltaDto>();
 
                 Assert.IsTrue(comparador.Equals(rf, retificacaoEspecifica));
             }

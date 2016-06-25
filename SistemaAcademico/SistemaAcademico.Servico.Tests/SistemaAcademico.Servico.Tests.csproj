@@ -62,7 +62,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Base\TesteWebApi.cs" />
-    <Compile Include="Comparador\RetificacaoFaltaEqualityComparer.cs" />
+    <Compile Include="Comparador\RetificacaoFaltaDtoEqualityComparer.cs" />
     <Compile Include="Fakes\ContextoTeste.cs" />
     <Compile Include="Fakes\DBSetTeste.cs" />
     <Compile Include="TestesRetificacao.cs" />
