@@ -88,94 +88,94 @@ namespace SistemaAcademico.Dados
                 new GradeDisciplina {IdGrade = 1, IdDisciplina = 15 },
 
                 // Ciencia da computação - Oferta 2
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 1 }, // Período 1
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 4 },
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 10 },
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 16 },
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 2 }, // Período 2
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 5 },
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 11 },
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 17 },
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 20}, // Período 3
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 6 },
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 8 },
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 18 },
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 3 }, // Período 4
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 7 },
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 9 },
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 21 },
+                new GradeDisciplina {IdGrade = 2, IdDisciplina = 1 }, // Período 1
+                new GradeDisciplina {IdGrade = 2, IdDisciplina = 4 },
+                new GradeDisciplina {IdGrade = 2, IdDisciplina = 10 },
+                new GradeDisciplina {IdGrade = 2, IdDisciplina = 16 },
+                new GradeDisciplina {IdGrade = 2, IdDisciplina = 2 }, // Período 2
+                new GradeDisciplina {IdGrade = 2, IdDisciplina = 5 },
+                new GradeDisciplina {IdGrade = 2, IdDisciplina = 11 },
+                new GradeDisciplina {IdGrade = 2, IdDisciplina = 17 },
+                new GradeDisciplina {IdGrade = 2, IdDisciplina = 20}, // Período 3
+                new GradeDisciplina {IdGrade = 2, IdDisciplina = 6 },
+                new GradeDisciplina {IdGrade = 2, IdDisciplina = 8 },
+                new GradeDisciplina {IdGrade = 2, IdDisciplina = 18 },
+                new GradeDisciplina {IdGrade = 2, IdDisciplina = 3 }, // Período 4
+                new GradeDisciplina {IdGrade = 2, IdDisciplina = 7 },
+                new GradeDisciplina {IdGrade = 2, IdDisciplina = 9 },
+                new GradeDisciplina {IdGrade = 2, IdDisciplina = 21 },
 
                 // Engenharia da Computação - Oferta 1
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 1 }, // Período 1
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 4 },
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 10 },
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 24 },
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 2 }, // Período 2
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 5 },
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 11 },
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 28 },
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 20}, // Período 3
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 6 },
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 29 },
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 16 },
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 3 }, // Período 4
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 7 },
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 8 },
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 32 },
+                new GradeDisciplina {IdGrade = 3, IdDisciplina = 1 }, // Período 1
+                new GradeDisciplina {IdGrade = 3, IdDisciplina = 4 },
+                new GradeDisciplina {IdGrade = 3, IdDisciplina = 10 },
+                new GradeDisciplina {IdGrade = 3, IdDisciplina = 24 },
+                new GradeDisciplina {IdGrade = 3, IdDisciplina = 2 }, // Período 2
+                new GradeDisciplina {IdGrade = 3, IdDisciplina = 5 },
+                new GradeDisciplina {IdGrade = 3, IdDisciplina = 11 },
+                new GradeDisciplina {IdGrade = 3, IdDisciplina = 28 },
+                new GradeDisciplina {IdGrade = 3, IdDisciplina = 20}, // Período 3
+                new GradeDisciplina {IdGrade = 3, IdDisciplina = 6 },
+                new GradeDisciplina {IdGrade = 3, IdDisciplina = 29 },
+                new GradeDisciplina {IdGrade = 3, IdDisciplina = 16 },
+                new GradeDisciplina {IdGrade = 3, IdDisciplina = 3 }, // Período 4
+                new GradeDisciplina {IdGrade = 3, IdDisciplina = 7 },
+                new GradeDisciplina {IdGrade = 3, IdDisciplina = 8 },
+                new GradeDisciplina {IdGrade = 3, IdDisciplina = 32 },
 
                 // Engenharia de Software - Oferta 1
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 1 }, // Período 1
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 12},
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 16 },
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 24 },
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 2 }, // Período 2
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 32},
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 8 },
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 17 },
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 20}, // Período 3
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 13 },
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 27},
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 18 },
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 30 }, // Período 4
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 19 },
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 9 },
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 22 },
+                new GradeDisciplina {IdGrade = 4, IdDisciplina = 1 }, // Período 1
+                new GradeDisciplina {IdGrade = 4, IdDisciplina = 12},
+                new GradeDisciplina {IdGrade = 4, IdDisciplina = 16 },
+                new GradeDisciplina {IdGrade = 4, IdDisciplina = 24 },
+                new GradeDisciplina {IdGrade = 4, IdDisciplina = 2 }, // Período 2
+                new GradeDisciplina {IdGrade = 4, IdDisciplina = 32},
+                new GradeDisciplina {IdGrade = 4, IdDisciplina = 8 },
+                new GradeDisciplina {IdGrade = 4, IdDisciplina = 17 },
+                new GradeDisciplina {IdGrade = 4, IdDisciplina = 20}, // Período 3
+                new GradeDisciplina {IdGrade = 4, IdDisciplina = 13 },
+                new GradeDisciplina {IdGrade = 4, IdDisciplina = 27},
+                new GradeDisciplina {IdGrade = 4, IdDisciplina = 18 },
+                new GradeDisciplina {IdGrade = 4, IdDisciplina = 30 }, // Período 4
+                new GradeDisciplina {IdGrade = 4, IdDisciplina = 19 },
+                new GradeDisciplina {IdGrade = 4, IdDisciplina = 9 },
+                new GradeDisciplina {IdGrade = 4, IdDisciplina = 22 },
 
                 // Sistemas de Informação - Oferta 1
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 1 }, // Período 1
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 12},
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 16 },
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 23 },
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 2 }, // Período 2
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 12},
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 8 },
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 17 },
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 20}, // Período 3
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 13 },
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 27 },
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 18 },
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 30 }, // Período 4
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 19 },
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 9 },
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 21 },
+                new GradeDisciplina {IdGrade = 5, IdDisciplina = 1 }, // Período 1
+                new GradeDisciplina {IdGrade = 5, IdDisciplina = 12},
+                new GradeDisciplina {IdGrade = 5, IdDisciplina = 16 },
+                new GradeDisciplina {IdGrade = 5, IdDisciplina = 23 },
+                new GradeDisciplina {IdGrade = 5, IdDisciplina = 2 }, // Período 2
+                new GradeDisciplina {IdGrade = 5, IdDisciplina = 12},
+                new GradeDisciplina {IdGrade = 5, IdDisciplina = 8 },
+                new GradeDisciplina {IdGrade = 5, IdDisciplina = 17 },
+                new GradeDisciplina {IdGrade = 5, IdDisciplina = 20}, // Período 3
+                new GradeDisciplina {IdGrade = 5, IdDisciplina = 13 },
+                new GradeDisciplina {IdGrade = 5, IdDisciplina = 27 },
+                new GradeDisciplina {IdGrade = 5, IdDisciplina = 18 },
+                new GradeDisciplina {IdGrade = 5, IdDisciplina = 30 }, // Período 4
+                new GradeDisciplina {IdGrade = 5, IdDisciplina = 19 },
+                new GradeDisciplina {IdGrade = 5, IdDisciplina = 9 },
+                new GradeDisciplina {IdGrade = 5, IdDisciplina = 21 },
 
                 // Sistemas de Informação - Oferta 2
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 1 }, // Período 1
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 12},
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 16 },
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 23 },
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 2 }, // Período 2
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 12},
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 8 },
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 17 },
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 20}, // Período 3
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 14 },
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 27 },
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 18 },
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 10 }, // Período 4
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 19 },
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 9 },
-                new GradeDisciplina {IdGrade = 1, IdDisciplina = 21 },
+                new GradeDisciplina {IdGrade = 6, IdDisciplina = 1 }, // Período 1
+                new GradeDisciplina {IdGrade = 6, IdDisciplina = 12},
+                new GradeDisciplina {IdGrade = 6, IdDisciplina = 16 },
+                new GradeDisciplina {IdGrade = 6, IdDisciplina = 23 },
+                new GradeDisciplina {IdGrade = 6, IdDisciplina = 2 }, // Período 2
+                new GradeDisciplina {IdGrade = 6, IdDisciplina = 12},
+                new GradeDisciplina {IdGrade = 6, IdDisciplina = 8 },
+                new GradeDisciplina {IdGrade = 6, IdDisciplina = 17 },
+                new GradeDisciplina {IdGrade = 6, IdDisciplina = 20}, // Período 3
+                new GradeDisciplina {IdGrade = 6, IdDisciplina = 14 },
+                new GradeDisciplina {IdGrade = 6, IdDisciplina = 27 },
+                new GradeDisciplina {IdGrade = 6, IdDisciplina = 18 },
+                new GradeDisciplina {IdGrade = 6, IdDisciplina = 10 }, // Período 4
+                new GradeDisciplina {IdGrade = 6, IdDisciplina = 19 },
+                new GradeDisciplina {IdGrade = 6, IdDisciplina = 9 },
+                new GradeDisciplina {IdGrade = 6, IdDisciplina = 21 },
 
 
             }.Adicionar(contexto);
