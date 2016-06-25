@@ -35,7 +35,7 @@ namespace SistemaAcademico.Dados.Repositorio.Base
 
         public virtual void Editar(T entidade)
         {
-            db.Entry(entidade).State = EntityState.Modified;
+            db.MarcaModificado(entidade);
         }
 
         public virtual void Inserir(T entidade)
