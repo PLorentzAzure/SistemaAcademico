@@ -95,13 +95,37 @@ namespace SistemaAcademico.Servico
             }
         }
 
-        private GerenciadorGradeDisciplina _gerenciadorGrade;
-        public GerenciadorGradeDisciplina GerenciadorGrade
+        private GerenciadorGradeDisciplina _gerenciadorGradeDisciplina;
+        public GerenciadorGradeDisciplina GerenciadorGradeDisciplina
+        {
+            get
+            {
+                if (this._gerenciadorGradeDisciplina == null)
+                    this._gerenciadorGradeDisciplina = new GerenciadorGradeDisciplina(registrarErro);
+
+                return this._gerenciadorGradeDisciplina;
+            }
+        }
+
+        private GerenciadorCurso _gerenciadorCurso;
+        public GerenciadorCurso GerenciadorCurso
+        {
+            get
+            {
+                if (this._gerenciadorCurso == null)
+                    this._gerenciadorCurso = new GerenciadorCurso(registrarErro);
+
+                return this._gerenciadorCurso;
+            }
+        }
+
+        private GerenciadorGrade _gerenciadorGrade;
+        public GerenciadorGrade GerenciadorGrade
         {
             get
             {
                 if (this._gerenciadorGrade == null)
-                    this._gerenciadorGrade = new GerenciadorGradeDisciplina(registrarErro);
+                    this._gerenciadorGrade = new GerenciadorGrade(registrarErro);
 
                 return this._gerenciadorGrade;
             }
@@ -123,7 +147,7 @@ namespace SistemaAcademico.Servico
                 _gerenciadorMatriculaAtividade?.Dispose();
                 _gerenciadorUsuario?.Dispose();
                 _gerenciadorAluno?.Dispose();
-                _gerenciadorGrade?.Dispose();
+                _gerenciadorGradeDisciplina?.Dispose();
             }
         }
     }

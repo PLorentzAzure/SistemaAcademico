@@ -11,22 +11,24 @@ using System.Threading.Tasks;
 
 namespace SistemaAcademico.Dados.Repositorio
 {
-    public class RepositorioAluno : Repositorio<Aluno>
+    public class RepositorioGrade : Repositorio<Grade>
     {
-        public RepositorioAluno() : base()
+        public RepositorioGrade() : base()
         {
 
         }
 
-        public RepositorioAluno(IContexto contexto) : base(contexto)
+        public RepositorioGrade(IContexto contexto) : base(contexto)
         {
 
         }
 
-        public int? BuscarMatriculaAtual(int idAluno)
+        public Grade BuscarGradeAtivaPorCurso(int idCurso)
         {
-            return dbSet.Include(a => a.Matriculas)
-                .Where(a => a.Id == idAluno).FirstOrDefault()?.Matriculas?.MaxByOrDefault(m => m.Periodo)?.Id;
+            return dbSet
+                .Include(g => g.GradeDisciplinas.Select(gd => gd.Disciplina))
+                .Where(g => g.IdCurso == idCurso && g.Ativa)
+                .FirstOrDefault();
         }
     }
 }

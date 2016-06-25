@@ -109,13 +109,37 @@ namespace SistemaAcademico.Negocio
             }
         }
 
-        private RepositorioGradeDisciplina _repositorioGrade;
-        public RepositorioGradeDisciplina RepositorioGrade
+        private RepositorioGradeDisciplina _repositorioGradeDisciplina;
+        public RepositorioGradeDisciplina RepositorioGradeDisciplina
+        {
+            get
+            {
+                if (this._repositorioGradeDisciplina == null)
+                    this._repositorioGradeDisciplina = new RepositorioGradeDisciplina(contexto);
+
+                return this._repositorioGradeDisciplina;
+            }
+        }
+
+        private RepositorioCurso _repositorioCurso;
+        public RepositorioCurso RepositorioCurso
+        {
+            get
+            {
+                if (this._repositorioCurso == null)
+                    this._repositorioCurso = new RepositorioCurso(contexto);
+
+                return this._repositorioCurso;
+            }
+        }
+
+        private RepositorioGrade _repositorioGrade;
+        public RepositorioGrade RepositorioGrade
         {
             get
             {
                 if (this._repositorioGrade == null)
-                    this._repositorioGrade = new RepositorioGradeDisciplina(contexto);
+                    this._repositorioGrade = new RepositorioGrade(contexto);
 
                 return this._repositorioGrade;
             }
@@ -143,7 +167,7 @@ namespace SistemaAcademico.Negocio
                 _repositorioMatricula?.Dispose();
                 _repositorioUsuario?.Dispose();
                 _repositorioAluno?.Dispose();
-                _repositorioGrade?.Dispose();
+                _repositorioGradeDisciplina?.Dispose();
             }
         }
     }

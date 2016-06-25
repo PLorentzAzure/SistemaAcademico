@@ -50,6 +50,8 @@
     <Compile Include="Gerenciador\Base\Gerenciador.cs" />
     <Compile Include="ClasseTeste.cs" />
     <Compile Include="Gerenciador\Base\GerenciadorServico.cs" />
+    <Compile Include="Gerenciador\GerenciadorGrade.cs" />
+    <Compile Include="Gerenciador\GerenciadorCurso.cs" />
     <Compile Include="Gerenciador\GerenciadorAluno.cs" />
     <Compile Include="Gerenciador\GerenciadorGradeDisciplina.cs" />
     <Compile Include="Gerenciador\GerenciadorMatriculaAtividade.cs" />
