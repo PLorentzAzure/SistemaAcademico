@@ -239,12 +239,12 @@ namespace SistemaAcademico.Dados
                 new Matricula {Periodo = 1, IdAluno = 2 },
                 new Matricula {Periodo = 1, IdAluno = 3 },
 
-                new Matricula {Periodo = 1, IdAluno = 1 },
-                new Matricula {Periodo = 1, IdAluno = 2 },
+                new Matricula {Periodo = 2, IdAluno = 1 },
+                new Matricula {Periodo = 2, IdAluno = 2 },
 
-                new Matricula {Periodo = 1, IdAluno = 1 },
+                new Matricula {Periodo = 3, IdAluno = 1 },
 
-                new Matricula {Periodo = 1, IdAluno = 1 },
+                new Matricula {Periodo = 4, IdAluno = 1 },
             }.Adicionar(contexto);
 
             new List<MatriculaOferta>
