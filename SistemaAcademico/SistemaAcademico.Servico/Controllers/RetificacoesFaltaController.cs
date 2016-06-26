@@ -12,7 +12,7 @@ using static SistemaAcademico.Dominio.Base.Servico;
 
 namespace SistemaAcademico.Servico.Controllers
 {
-    public class RetificacoesFaltaController : ControladorCrudDto<RetificacaoFalta, RetificacaoFaltaDTO>
+    public class RetificacoesFaltaController : ControladorCrudDto<RetificacaoFalta, RetificacaoFaltaDto>
     {
         [HttpPut]
         [Route("api/RetificacoesFalta/{id}/Aprovar")]
