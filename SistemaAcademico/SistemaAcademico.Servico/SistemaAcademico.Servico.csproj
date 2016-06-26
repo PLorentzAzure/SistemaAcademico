@@ -113,6 +113,7 @@
     <Compile Include="Controllers\RetificacoesFaltaController.cs" />
     <Compile Include="Controllers\RevisoesAtividadeController.cs" />
     <Compile Include="Dto\AutenticacaoDto.cs" />
+    <Compile Include="Dto\OfertasMatriculaAlunoDto.cs" />
     <Compile Include="Dto\HistoricoPeriodoDto.cs" />
     <Compile Include="Dto\BoletimDto.cs" />
     <Compile Include="Dto\NotaDisciplinaDto.cs" />
