@@ -35,5 +35,16 @@ namespace SistemaAcademico.Servico.Controllers
 
             return Ok(atividades.Select(a => new HistoricoPeriodoDto(a.Key, a)));
         }
+
+        [HttpGet]
+        [Route("api/Alunos/{idAluno}/GradeCurricular")]
+        public IHttpActionResult BuscarGradeCurricularAluno(int idAluno)
+        {
+            var gradeAluno = adaptador.GerenciadorAluno.BuscarGradeAluno(idAluno);
+            if (gradeAluno == null)
+                return NotFound();
+
+            return Ok(gradeAluno);
+        }
     }
 }

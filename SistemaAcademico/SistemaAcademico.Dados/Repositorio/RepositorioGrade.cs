@@ -30,5 +30,21 @@ namespace SistemaAcademico.Dados.Repositorio
                 .Where(g => g.IdCurso == idCurso && g.Ativa)
                 .FirstOrDefault();
         }
+
+        public Grade BuscarGradeAluno(int idAluno)
+        {
+            var gradeBuscada =
+                from grade in dbSet
+                join gradeDisciplina in db.Set<GradeDisciplina>() on grade.Id equals gradeDisciplina.IdGrade
+                join oferta in db.Set<Oferta>() on gradeDisciplina.Id equals oferta.IdGradeDisciplina
+                join matriculaOferta in db.Set<MatriculaOferta>() on oferta.Id equals matriculaOferta.IdOferta
+                join matricula in db.Set<Matricula>() on matriculaOferta.IdMatricula equals matricula.Id
+                where matricula.IdAluno == idAluno
+                select grade;
+
+            return gradeBuscada
+                .Include(g => g.GradeDisciplinas.Select(gd => gd.Disciplina))
+                .FirstOrDefault();
+        }
     }
 }

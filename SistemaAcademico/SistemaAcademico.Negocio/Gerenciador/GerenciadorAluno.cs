@@ -14,5 +14,10 @@ namespace SistemaAcademico.Negocio.Gerenciador
         public GerenciadorAluno(RegistraErro registraErro) : base(registraErro)
         {
         }
+
+        public Grade BuscarGradeAluno(int idAluno)
+        {
+            return adaptador.RepositorioGrade.BuscarGradeAluno(idAluno);
+        }
     }
 }
