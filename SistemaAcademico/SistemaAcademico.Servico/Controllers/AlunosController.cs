@@ -10,6 +10,7 @@ using SistemaAcademico.Dominio;
 using SistemaAcademico.Servico.Controllers.Base;
 using SistemaAcademico.Servico.Dto;
 using SistemaAcademico.Servico.Filtro;
+using SistemaAcademico.Dominio.Base;
 
 namespace SistemaAcademico.Servico.Controllers
 {
@@ -49,6 +50,14 @@ namespace SistemaAcademico.Servico.Controllers
                 return NotFound();
 
             return Ok(gradeAluno);
+        }
+
+        [HttpGet]
+        [ValidaToken(Perfis = new[] { PerfilPessoa.Aluno })]
+        [Route("api/Alunos/MinhaGradeCurricular")]
+        public IHttpActionResult BuscarGradeCurricularAluno()
+        {
+            return BuscarGradeCurricularAluno(InformacaoTokenValidado.IdPessoa.Value);
         }
     }
 }
