@@ -1,5 +1,6 @@
 ﻿using SistemaAcademico.Dominio;
 using SistemaAcademico.Negocio.Gerenciador.Base;
+using SistemaAcademico.Servico.Seguranca;
 using SistemaAcademico.Util.Excecao.Dado;
 using System;
 using System.Collections.Generic;
@@ -26,6 +27,10 @@ namespace SistemaAcademico.Servico.Controllers.Base
         {
             this.adaptador = adaptador;
         }
+
+        public const string ChaveInformacaoToken = "6ae5fd96-c1eb-4f02-b42b-56c67d31a35a";
+
+        protected InformacaoToken InformacaoTokenValidado { get { return Request.Properties[ChaveInformacaoToken] as InformacaoToken; } }
 
         protected void RegistraErros(string chave, string erro)
         {

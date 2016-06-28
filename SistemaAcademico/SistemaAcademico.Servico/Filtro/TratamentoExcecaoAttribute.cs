@@ -1,6 +1,4 @@
-﻿#pragma warning disable CC0023 // Unsealed Attribute
-
-using SistemaAcademico.Util.Excecao;
+﻿using SistemaAcademico.Util.Excecao;
 using SistemaAcademico.Util.Excecao.Dado;
 using System;
 using System.Collections.Generic;
@@ -14,7 +12,7 @@ using System.Web.Http.Filters;
 
 namespace SistemaAcademico.Servico.Filtro
 {
-    public class TratamentoExcecaoAttribute : ExceptionFilterAttribute
+    public sealed class TratamentoExcecaoAttribute : ExceptionFilterAttribute
     {
         public override void OnException(HttpActionExecutedContext actionExecutedContext)
         {
@@ -33,5 +31,3 @@ namespace SistemaAcademico.Servico.Filtro
         }
     }
 }
-
-#pragma warning restore CC0023 // Unsealed Attribute

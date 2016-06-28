@@ -48,6 +48,12 @@ namespace SistemaAcademico.Servico.Seguranca
 
         public bool ValidaToken(string token, out InformacaoToken info)
         {
+            if (string.IsNullOrWhiteSpace(token))
+            {
+                info = null;
+                return false;
+            }
+
             var handler = new JwtSecurityTokenHandler();
 
             var parametros = new TokenValidationParameters

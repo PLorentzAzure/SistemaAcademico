@@ -137,6 +137,7 @@
     <Compile Include="Dto\BoletimDisciplinaDto.cs" />
     <Compile Include="Dto\RevisaoAtividadeDto.cs" />
     <Compile Include="Dto\RetificacaoFaltaDto.cs" />
+    <Compile Include="Filtro\ValidaTokenAttribute.cs" />
     <Compile Include="Filtro\TratamentoExcecaoAttribute.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

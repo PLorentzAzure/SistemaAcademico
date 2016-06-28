@@ -1,7 +1,9 @@
 ﻿using SistemaAcademico.Dominio;
+using SistemaAcademico.Dominio.Base;
 using SistemaAcademico.Negocio.Gerenciador;
 using SistemaAcademico.Servico.Controllers.Base;
 using SistemaAcademico.Servico.Dto;
+using SistemaAcademico.Servico.Filtro;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,6 +17,7 @@ namespace SistemaAcademico.Servico.Controllers
     public class RetificacoesFaltaController : ControladorCrudDto<RetificacaoFalta, RetificacaoFaltaDto>
     {
         [HttpPut]
+        [ValidaToken(Perfis = new[] { PerfilPessoa.Professor })]
         [Route("api/RetificacoesFalta/{id}/Aprovar")]
         public IHttpActionResult Aprovar(int id)
         {
@@ -22,10 +25,16 @@ namespace SistemaAcademico.Servico.Controllers
         }
 
         [HttpPut]
+        [ValidaToken(Perfis = new[] { PerfilPessoa.Professor })]
         [Route("api/RetificacoesFalta/{id}/Rejeitar")]
         public IHttpActionResult Rejeitar(int id)
         {
             return AlterarStatus(id, StatusServico.Rejeitado);
+        }
+
+        public override IHttpActionResult Excluir(int id)
+        {
+            return Unauthorized();
         }
 
         private IHttpActionResult AlterarStatus(int id, StatusServico status)

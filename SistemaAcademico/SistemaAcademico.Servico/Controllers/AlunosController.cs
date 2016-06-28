@@ -9,12 +9,14 @@ using System.Web.Http.Description;
 using SistemaAcademico.Dominio;
 using SistemaAcademico.Servico.Controllers.Base;
 using SistemaAcademico.Servico.Dto;
+using SistemaAcademico.Servico.Filtro;
 
 namespace SistemaAcademico.Servico.Controllers
 {
     public class AlunosController : Controlador
     {
         [HttpGet]
+        [ValidaToken(PropriedadeRotaIdAluno = "idAluno")]
         [Route("api/Alunos/{idAluno}/Matriculas")]
         public IHttpActionResult BuscaMatriculasAluno(int idAluno)
         {
@@ -26,6 +28,7 @@ namespace SistemaAcademico.Servico.Controllers
         }
 
         [HttpGet]
+        [ValidaToken(PropriedadeRotaIdAluno = "idAluno")]
         [Route("api/Alunos/{idAluno}/Historico")]
         public IHttpActionResult BuscaHistoricoAluno(int idAluno)
         {
@@ -37,6 +40,7 @@ namespace SistemaAcademico.Servico.Controllers
         }
 
         [HttpGet]
+        [ValidaToken(PropriedadeRotaIdAluno = "idAluno")]
         [Route("api/Alunos/{idAluno}/GradeCurricular")]
         public IHttpActionResult BuscarGradeCurricularAluno(int idAluno)
         {

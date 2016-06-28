@@ -1,5 +1,7 @@
 ﻿using SistemaAcademico.Dominio;
+using SistemaAcademico.Dominio.Base;
 using SistemaAcademico.Servico.Controllers.Base;
+using SistemaAcademico.Servico.Filtro;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +11,7 @@ using System.Web.Http;
 
 namespace SistemaAcademico.Servico.Controllers
 {
+    [ValidaToken(Perfis = new[] { PerfilPessoa.Professor })]
     public class AtividadesController : ControladorCrudDominio<Atividade>
     {
         /**
