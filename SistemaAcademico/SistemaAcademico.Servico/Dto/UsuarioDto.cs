@@ -1,6 +1,7 @@
 ﻿using SistemaAcademico.Dominio;
 using SistemaAcademico.Dominio.Base;
 using SistemaAcademico.Servico.Dto.Base;
+using SistemaAcademico.Servico.Seguranca;
 using SistemaAcademico.Util.Enumeravel;
 using System;
 using System.Collections.Generic;
@@ -49,7 +50,6 @@ namespace SistemaAcademico.Servico.Dto
         {
             this.Id = usuario.Id;
             this.Login = usuario.Login;
-            this.Token = usuario.Token;
 
             var pessoa = usuario.Pessoa;
             this.Nome = pessoa?.Nome;
@@ -58,6 +58,8 @@ namespace SistemaAcademico.Servico.Dto
             this.IdPerfil = (int)perfil;
             this.NomePerfil = perfil.ToString();
             this.IdMatriculaAtual = (usuario.Pessoa as Aluno)?.Matriculas.MaxByOrDefault(m => m.Periodo)?.Id;
+
+            this.Token = EmissorTokenFactory.BuscaEmissorToken().CriaToken(new InformacaoToken(usuario));
         }
     }
 }

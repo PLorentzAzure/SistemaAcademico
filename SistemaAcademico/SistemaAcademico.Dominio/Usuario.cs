@@ -16,11 +16,6 @@ namespace SistemaAcademico.Dominio
 
         public string Senha { get; set; }
 
-        /// <summary>
-        /// Token de autenticação.
-        /// </summary>
-        public string Token { get; set; }
-
         public Pessoa Pessoa
         {
             get

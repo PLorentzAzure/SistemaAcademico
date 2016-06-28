@@ -1,18 +1,17 @@
-﻿using SistemaAcademico.Negocio.Token.Contrato;
+﻿using SistemaAcademico.Servico.Seguranca.Contrato;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SistemaAcademico.Negocio.Token
+namespace SistemaAcademico.Servico.Seguranca
 {
     public class EmissorTokenFactory
     {
-        private static readonly IEmissorToken _emissor = new EmissorTokenGuid();
+        private static readonly IEmissorToken _emissor = new EmissorTokenJwt();
         public static IEmissorToken BuscaEmissorToken()
         {
-            // TODO: Fazer token issuers mais interessantes.
             return _emissor;
         }
     }
