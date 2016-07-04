@@ -24,7 +24,7 @@ namespace SistemaAcademico.Servico.Controllers.Base
         {
         }
 
-        private static TDto CriarDto(TDominio rf)
+        protected static TDto CriarDto(TDominio rf)
         {
             var dto = new TDto();
             dto.ConstruirDto(rf);

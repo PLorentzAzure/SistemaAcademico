@@ -32,7 +32,19 @@ namespace SistemaAcademico.Servico.Controllers
             return AlterarStatus(id, StatusServico.Rejeitado);
         }
 
+        [ValidaToken]
+        public override IHttpActionResult Buscar()
+        {
+            var retificacoes = adaptador.GerenciadorRetificacaoFalta.BuscarPorPessoa(InformacaoTokenValidado.IdPessoa ?? 0, InformacaoTokenValidado.TipoPerfil);
+            return Ok(retificacoes.Select(rf => CriarDto(rf)).ToList());
+        }
+
         public override IHttpActionResult Excluir(int id)
+        {
+            return Unauthorized();
+        }
+
+        public override IHttpActionResult Editar(int id, RetificacaoFaltaDto entidade)
         {
             return Unauthorized();
         }

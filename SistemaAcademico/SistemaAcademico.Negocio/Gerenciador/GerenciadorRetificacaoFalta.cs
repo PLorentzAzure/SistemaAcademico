@@ -26,6 +26,15 @@ namespace SistemaAcademico.Negocio.Gerenciador
             return base.Inserir(solicitacao, apenasValidar || erroEncontrado);
         }
 
+        public IEnumerable<RetificacaoFalta> BuscarPorPessoa(int idPessoa, PerfilPessoa perfil)
+        {
+            if (perfil == PerfilPessoa.Aluno)
+                return adaptador.RepositorioRetificacaoFalta.BuscarPorAluno(idPessoa);
+            else if (perfil == PerfilPessoa.Professor)
+                return adaptador.RepositorioRetificacaoFalta.BuscarPorProfessor(idPessoa);
+            return Enumerable.Empty<RetificacaoFalta>();
+        }
+
         public bool AlterarStatus(int id, Servico.StatusServico novoStatus)
         {
             var solicitacao = Buscar(id);
