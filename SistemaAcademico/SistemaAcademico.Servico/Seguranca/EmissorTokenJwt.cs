@@ -34,8 +34,8 @@ namespace SistemaAcademico.Servico.Seguranca
             var agora = DateTime.Now;
             var valoresToken = new Microsoft.IdentityModel.Tokens.SecurityTokenDescriptor
             {
-                NotBefore = DateTime.Now.AddHours(-1),
-                Expires = agora.AddHours(1),
+                NotBefore = DateTime.Now.AddDays(-1),
+                Expires = agora.AddMinutes(Convert.ToInt32(ConfigurationManager.AppSettings["ExpiracaoTokenMinutos"] ?? "60")),
                 IssuedAt = agora,
                 Issuer = issuer,
                 Subject = new ClaimsIdentity(claims),
